@@ -1,8 +1,8 @@
 #include "Fixed.hpp"
 
 Fixed::Fixed()
+    :fixedPointValue(0)
 {
-    this->fixedPointValue = 0;
 }
 
 Fixed::Fixed(const int value)
